@@ -1,0 +1,33 @@
+/**
+ * IE specific CSS
+ *
+ * @package Epsilon_2
+ * @subpackage Styles
+ */
+
+/* =IE Style
+-------------------------------------------------------------- */
+
+.oldie #masthead,
+.oldie .small-ribbon #masthead .site-title,
+.oldie #masthead .site-description {
+	background-image: url('../images/rgba(2,144,7,.8).png');
+	background-repeat: repeat;
+}
+
+.oldie #masthead .site-description:after {
+	background-image: url('../images/rgba(122,229,42,.8).png');
+	background-repeat: repeat;
+}
+
+.oldie .navigation-main {
+	margin-top: -9px;
+}
+
+	.oldie .small-ribbon .navigation-main {
+		margin-top: -114px;
+	}
+
+		.oldie .small-ribbon.replace-site-description .navigation-main {
+			margin-top: -156px;
+		}

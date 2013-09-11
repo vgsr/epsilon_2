@@ -1,0 +1,238 @@
+/**
+ * IcoMoon specific CSS
+ *
+ * @package Epsilon_2
+ * @subpackage Styles
+ */
+
+/* =IcoMoon Style
+-------------------------------------------------------------- */
+
+@font-face {
+	font-family: 'IcoMoon';
+	src: url('../fonts/icomoon.eot');
+	src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.svg#IcoMoon') format('svg'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Add the following classes to your stylesheet if you want to use data attributes for inserting your icons */
+.iconb:before, .icona:after {
+	font-family: 'IcoMoon';
+	content: attr(data-icon);
+}
+
+/* Add the following CSS properties to your stylesheet if you want to have a class per icon */
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'IcoMoon';
+	font-style: normal;
+	vertical-align: -1px;
+}
+
+.icon-user:before {
+	content: "\0021";
+}
+.icon-users:before {
+	content: "\0022";
+}
+.icon-contact:before {
+	content: "\0023";
+}
+.icon-left_quote_down:before {
+	content: "\0024";
+}
+.icon-cancel:before {
+	content: "\0025";
+}
+.icon-plus:before {
+	content: "\0026";
+}
+.icon-checkmark:before {
+	content: "\0027";
+}
+.icon-minus:before {
+	content: "\0028";
+}
+.icon-bars:before {
+	content: "\0029";
+}
+.icon-file-word:before {
+	content: "\002a";
+}
+.icon-file-powerpoint:before {
+	content: "\002b";
+}
+.icon-paper:before {
+	content: "\002c";
+}
+.icon-file-excel:before {
+	content: "\002d";
+}
+.icon-equalizer:before {
+	content: "\002e";
+}
+.icon-file-xml:before {
+	content: "\002f";
+}
+.icon-reload-CW:before {
+	content: "\0030";
+}
+.icon-file-pdf:before {
+	content: "\0031";
+}
+.icon-play:before {
+	content: "\0032";
+}
+.icon-pause:before {
+	content: "\0033";
+}
+.icon-fast-backward:before {
+	content: "\0034";
+}
+.icon-fast-forward:before {
+	content: "\0035";
+}
+.icon-first:before {
+	content: "\0036";
+}
+.icon-last:before {
+	content: "\0037";
+}
+.icon-stop:before {
+	content: "\0038";
+}
+.icon-right_quote:before {
+	content: "\0039";
+}
+.icon-arrow:before {
+	content: "\003a";
+}
+.icon-arrow-2:before {
+	content: "\003b";
+}
+.icon-arrow-3:before {
+	content: "\003c";
+}
+.icon-arrow-4:before {
+	content: "\003d";
+}
+.icon-fullscreen_exit:before {
+	content: "\003e";
+}
+.icon-fullscreen:before {
+	content: "\003f";
+}
+.icon-images:before {
+	content: "\0040";
+}
+.icon-movie:before {
+	content: "\0041";
+}
+.icon-song:before {
+	content: "\0042";
+}
+.icon-folder:before {
+	content: "\0043";
+}
+.icon-archive:before {
+	content: "\0044";
+}
+.icon-trashcan:before {
+	content: "\0045";
+}
+.icon-card:before {
+	content: "\0046";
+}
+.icon-calendar:before {
+	content: "\0047";
+}
+.icon-price:before {
+	content: "\0048";
+}
+.icon-chat:before {
+	content: "\0049";
+}
+.icon-comment:before {
+	content: "\004a";
+}
+.icon-location:before {
+	content: "\004b";
+}
+.icon-heart:before {
+	content: "\004c";
+}
+.icon-heart-2:before {
+	content: "\004d";
+}
+.icon-locked:before {
+	content: "\004e";
+}
+.icon-unlocked:before {
+	content: "\004f";
+}
+.icon-info-circle:before {
+	content: "\0050";
+}
+.icon-help:before {
+	content: "\0051";
+}
+.icon-upload:before {
+	content: "\0052";
+}
+.icon-download:before {
+	content: "\0053";
+}
+.icon-bookmark:before {
+	content: "\0054";
+}
+.icon-search:before {
+	content: "\0055";
+}
+.icon-phone:before {
+	content: "\0056";
+}
+.icon-email:before {
+	content: "\0057";
+}
+.icon-address:before {
+	content: "\0058";
+}
+.icon-attachment:before {
+	content: "\0059";
+}
+.icon-reply:before {
+	content: "\005a";
+}
+.icon-reply-to-all:before {
+	content: "\005b";
+}
+.icon-forward:before {
+	content: "\005c";
+}
+.icon-link:before {
+	content: "\005d";
+}
+.icon-settings:before {
+	content: "\005e";
+}
+.icon-printer:before {
+	content: "\005f";
+}
+.icon-key:before {
+	content: "\0060";
+}
+.icon-clock:before {
+	content: "\0061";
+}
+.icon-warning:before {
+	content: "\0062";
+}
+.icon-right_quote-2:before {
+	content: "\0063";
+}
+.icon-write:before {
+	content: "\0064";
+}
